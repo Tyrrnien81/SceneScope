@@ -1,0 +1,106 @@
+{
+  "top1": 0.4897,
+  "macro_precision": 0.4927542204978204,
+  "macro_recall": 0.48969999999999997,
+  "macro_f1": 0.4892649999329134,
+  "weakest_classes": [
+    "coffee_shop",
+    "museum",
+    "river",
+    "restaurant",
+    "valley"
+  ],
+  "strongest_classes": [
+    "track",
+    "cockpit",
+    "bamboo_forest",
+    "boxing_ring",
+    "swimming_pool"
+  ],
+  "confused_pairs": [
+    {
+      "true": "shower",
+      "pred": "bathroom",
+      "count": 27
+    },
+    {
+      "true": "bathroom",
+      "pred": "shower",
+      "count": 22
+    },
+    {
+      "true": "classroom",
+      "pred": "kindergarden_classroom",
+      "count": 22
+    },
+    {
+      "true": "mountain",
+      "pred": "valley",
+      "count": 21
+    },
+    {
+      "true": "monastery",
+      "pred": "temple",
+      "count": 17
+    },
+    {
+      "true": "abbey",
+      "pred": "church",
+      "count": 17
+    },
+    {
+      "true": "restaurant",
+      "pred": "bar",
+      "count": 16
+    },
+    {
+      "true": "candy_store",
+      "pred": "supermarket",
+      "count": 15
+    }
+  ],
+  "threshold_sweep": [
+    {
+      "threshold": 0.0,
+      "coverage": 1.0,
+      "accuracy": 0.4897,
+      "leakage": 0.5103,
+      "flagged": 0.0
+    },
+    {
+      "threshold": 0.3,
+      "coverage": 0.7111,
+      "accuracy": 0.6069469835466179,
+      "leakage": 0.3930530164533821,
+      "flagged": 0.28890000000000005
+    },
+    {
+      "threshold": 0.5,
+      "coverage": 0.4853,
+      "accuracy": 0.7284154131465073,
+      "leakage": 0.27158458685349274,
+      "flagged": 0.5146999999999999
+    },
+    {
+      "threshold": 0.7,
+      "coverage": 0.3262,
+      "accuracy": 0.825567136725935,
+      "leakage": 0.17443286327406504,
+      "flagged": 0.6738
+    },
+    {
+      "threshold": 0.9,
+      "coverage": 0.1902,
+      "accuracy": 0.9153522607781283,
+      "leakage": 0.08464773922187174,
+      "flagged": 0.8098
+    },
+    {
+      "threshold": 0.95,
+      "coverage": 0.1364,
+      "accuracy": 0.9435483870967742,
+      "leakage": 0.056451612903225756,
+      "flagged": 0.8636
+    }
+  ]
+}

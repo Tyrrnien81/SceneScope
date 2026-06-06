@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# macOS
+.DS_Store
+
+# Large dataset images & caches (not tracked)
+data/miniplaces/train/
+data/miniplaces/val/
+data/miniplaces/test/
+data/miniplaces/cached_*.pkl
+data.tar.gz
+
+# Model checkpoints (large binaries)
+outputs/*.pth.tar
